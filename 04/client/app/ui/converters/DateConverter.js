@@ -6,7 +6,7 @@ class DateConverter{
 
     // Função Estática para Capturar a Data(Não pode ser instânciada)
     static paraTexto(data){
-        return `${data.getDate()}/${data.getMonth() + 1}/${data.getFullYear}` // Retorna a Data
+        return `${data.getDate()}/${data.getMonth() + 1}/${data.getFullYear()}` // Retorna a Data
     }
 
     // Função Estática para Converter a Data
